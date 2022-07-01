@@ -2,7 +2,7 @@
 namespace controllers;
 class Test{
     function index() {
-        echo 'this is index() method';
+        dd('aa','bb',array(1,23,4,'123'));
     }
 
     function hello() {

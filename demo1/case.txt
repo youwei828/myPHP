@@ -1,0 +1,2 @@
+1.数据密码记得改
+2.运行顺序为：installer.php→add.php

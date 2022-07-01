@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/log.css">
+</head>
+<body>
+    <div class="maxbox">
+        <h1>welcome!</h1>
+        <form name="login" action="php/login_check.php" method="post">
+        <div class="form">
+            <div class="item">
+                <span><label for="001"><i class="fa fa-user-circle-o" aria-hidden="true"></i></label></span>
+                <span><input type="text" id="001" name="username" placeholder="Username"></span>
+            </div>
+            <div class="item">
+                <span><label for="002"><i class="fa fa-key" aria-hidden="true"></i></label></span>
+                <span><input type="text" name="password" id="002" placeholder="Password" ></span>
+            </div>
+            <div class="remenber">
+                <input  type="checkbox" value="1" name="remember" checked> 记住密码
+                <span  style="float: right;"><a href="#"style="color:#fff;" title="你怎么连自己的密码都忘了？这么笨！找不回来了，死心吧，重新注册一个，乖。" >忘记密码？</a></span>
+            </div>
+            <div class="item">
+                <span></span><input type="submit" name="submit" value="LOGIN"></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span><a href="reg.html"><input type="button" value="REGISTER"/></a></span>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

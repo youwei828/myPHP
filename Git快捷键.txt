@@ -1,0 +1,11 @@
+Git clone +仓库连接；    ----在本地文件夹获取仓库
+Git pull origin master;    ----在本地更新
+Git push origin master;  ----在仓库更新
+git reset  --hard +版本码  ----在本地回溯某个版本
+git rebase --continue;      ----文件冲突
+git branch；  ----查看分支
+git branch +分支命;  ----创建分支
+git checkout develop;  ----切换到分支develop
+git push origin develop:develop;    ----提交到远程仓库分支develop,如果没有就创建
+git merge develop;    ----将develop合并到master
+ssh-keygen -t rsa;    ----生成公钥 
